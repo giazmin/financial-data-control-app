@@ -1,0 +1,15 @@
+users-
+data provider
+data consumer
+admin
+
+modifiers -
+validPermissions : it should check whether the data consumer has relevant permissions
+sufficientBalance : to check if data consumer has sufficient balance to access the data
+
+function - 
+registerProvider
+registerConsumer
+transferFunds
+askPermission
+setPermission
